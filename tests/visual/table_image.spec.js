@@ -1,4 +1,5 @@
 
+import fs from 'fs';
 import { runDocTest } from './helpers';
 
 describe('table', function () {
@@ -13,7 +14,8 @@ describe('table', function () {
                     [{ image: 'tests/images/bee.png', fit: [80, 30] }, 'Text Cell'],
                     ['Center Align', { image: 'tests/images/bee.png', fit: [50, 50], align: 'center' }],
                     ['Right Align', { image: 'tests/images/bee.png', fit: [50, 50], align: 'right' }],
-                    [{ image: 'tests/images/bee.png', fit: [50, 50], align: 'center', valign: 'center', height: 100 }, 'Center/Center']
+                    [{ image: 'tests/images/bee.png', fit: [50, 50], align: 'center', valign: 'center', height: 100 }, 'Center/Center'],
+                    ['Base64', { image: fs.readFileSync('tests/images/base64.txt', 'utf8'), fit: [50, 50] }]
                 ],
             });
         });

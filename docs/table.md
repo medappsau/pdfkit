@@ -380,7 +380,7 @@ Extends the [cell options](#cell-options) above with:
 
 You can add images to table cells by passing an object with the `image` property.
 
-- `image` - The image data (Buffer) or path to the image
+- `image` - The image data (Buffer), path to the image, or data URI string (base64)
 - `fit` - An array `[width, height]` to fit the image within valid dimensions
 - `imageOptions` - An object of options to pass to the `doc.image` method (e.g. `align`, `valign`)
 
@@ -389,7 +389,8 @@ Example:
     doc.table({
         data: [
             ['Text', { image: 'path/to/image.png', fit: [50, 50] }],
-            ['Centered Image', { image: 'path/to/image.png', fit: [50, 50], align: 'center' }]
+            ['Centered Image', { image: 'path/to/image.png', fit: [50, 50], align: 'center' }],
+            ['Base64 Image', { image: 'data:image/png;base64,...', fit: [50, 50] }]
         ]
     });
 
