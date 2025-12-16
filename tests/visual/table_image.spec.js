@@ -10,9 +10,13 @@ describe('table', function () {
                 widths: [100, 100],
                 data: [
                     ['Text Cell', { image: 'tests/images/bee.png', fit: [50, 50] }],
-                    [{ image: 'tests/images/bee.png', fit: [80, 30] }, 'Text Cell']
+                    [{ image: 'tests/images/bee.png', fit: [80, 30] }, 'Text Cell'],
+                    ['Center Align', { image: 'tests/images/bee.png', fit: [50, 50], align: 'center' }],
+                    ['Right Align', { image: 'tests/images/bee.png', fit: [50, 50], align: 'right' }],
+                    [{ image: 'tests/images/bee.png', fit: [50, 50], align: 'center', valign: 'center', height: 100 }, 'Center/Center']
                 ],
             });
         });
     });
 });
+
