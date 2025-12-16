@@ -375,3 +375,21 @@ Extends the [cell options](#cell-options) above with:
 - `height` - The height of the row (default `auto`)
 - `minHeight` - The minimum height of the row (default `0`)
 - `maxHeight` - The maximum height of the row (default `Infinity`)
+
+## Images
+
+You can add images to table cells by passing an object with the `image` property.
+
+- `image` - The image data (Buffer) or path to the image
+- `fit` - An array `[width, height]` to fit the image within valid dimensions
+- `imageOptions` - An object of options to pass to the `doc.image` method (e.g. `align`, `valign`)
+
+Example:
+
+    doc.table({
+        data: [
+            ['Text', { image: 'path/to/image.png', fit: [50, 50] }],
+            ['Centered Image', { image: 'path/to/image.png', fit: [50, 50], align: 'center' }]
+        ]
+    });
+
