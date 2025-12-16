@@ -1,5 +1,5 @@
 {
-  "name": "pdfkit",
+  "name": "@medappsau/pdfkit",
   "description": "A PDF generation library for Node.js",
   "keywords": [
     "pdf",
@@ -9,7 +9,10 @@
     "document",
     "vector"
   ],
-  "version": "0.17.2",
+  "version": "0.18.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "homepage": "http://pdfkit.org/",
   "author": {
     "name": "Devon Govett",
@@ -19,7 +22,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/foliojs/pdfkit.git"
+    "url": "https://github.com/medappsau/pdfkit.git"
   },
   "bugs": "https://github.com/foliojs/pdfkit/issues",
   "devDependencies": {

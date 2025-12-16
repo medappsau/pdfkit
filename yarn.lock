@@ -1742,6 +1742,41 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@medappsau/pdfkit@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@medappsau/pdfkit@workspace:."
+  dependencies:
+    "@babel/core": "npm:^7.26.0"
+    "@babel/plugin-external-helpers": "npm:^7.25.9"
+    "@babel/preset-env": "npm:^7.26.0"
+    "@eslint/js": "npm:^9.17.0"
+    "@rollup/plugin-babel": "npm:^6.0.4"
+    babel-jest: "npm:^29.7.0"
+    blob-stream: "npm:^0.1.3"
+    brace: "npm:^0.11.1"
+    brfs: "npm:~2.0.2"
+    browserify: "npm:^17.0.1"
+    canvas: "npm:^3.2.0"
+    codemirror: "npm:~5.65.18"
+    crypto-js: "npm:^4.2.0"
+    eslint: "npm:^9.17.0"
+    fontkit: "npm:^2.0.4"
+    gh-pages: "npm:^6.2.0"
+    globals: "npm:^15.14.0"
+    jest: "npm:^29.7.0"
+    jest-image-snapshot: "npm:^6.4.0"
+    jpeg-exif: "npm:^1.1.4"
+    linebreak: "npm:^1.1.0"
+    markdown: "npm:~0.5.0"
+    pdfjs-dist: "npm:^2.14.305"
+    png-js: "npm:^1.0.0"
+    prettier: "npm:3.4.2"
+    pug: "npm:^3.0.3"
+    rollup: "npm:^2.79.2"
+    rollup-plugin-copy: "npm:^3.5.0"
+  languageName: unknown
+  linkType: soft
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -6301,41 +6336,6 @@ __metadata:
   checksum: 10c0/903a2d95fb3b8a2ec66fb3164813e6181512a144abc39b7f87a735fbcf3384b1d2ee3c6ed8dde70bfbe87c8ae5f87fea8c799c22a2ebe2669ed8573bc076d1f6
   languageName: node
   linkType: hard
-
-"pdfkit@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "pdfkit@workspace:."
-  dependencies:
-    "@babel/core": "npm:^7.26.0"
-    "@babel/plugin-external-helpers": "npm:^7.25.9"
-    "@babel/preset-env": "npm:^7.26.0"
-    "@eslint/js": "npm:^9.17.0"
-    "@rollup/plugin-babel": "npm:^6.0.4"
-    babel-jest: "npm:^29.7.0"
-    blob-stream: "npm:^0.1.3"
-    brace: "npm:^0.11.1"
-    brfs: "npm:~2.0.2"
-    browserify: "npm:^17.0.1"
-    canvas: "npm:^3.2.0"
-    codemirror: "npm:~5.65.18"
-    crypto-js: "npm:^4.2.0"
-    eslint: "npm:^9.17.0"
-    fontkit: "npm:^2.0.4"
-    gh-pages: "npm:^6.2.0"
-    globals: "npm:^15.14.0"
-    jest: "npm:^29.7.0"
-    jest-image-snapshot: "npm:^6.4.0"
-    jpeg-exif: "npm:^1.1.4"
-    linebreak: "npm:^1.1.0"
-    markdown: "npm:~0.5.0"
-    pdfjs-dist: "npm:^2.14.305"
-    png-js: "npm:^1.0.0"
-    prettier: "npm:3.4.2"
-    pug: "npm:^3.0.3"
-    rollup: "npm:^2.79.2"
-    rollup-plugin-copy: "npm:^3.5.0"
-  languageName: unknown
-  linkType: soft
 
 "picocolors@npm:^1.0.0, picocolors@npm:^1.1.1":
   version: 1.1.1
